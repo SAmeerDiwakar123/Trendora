@@ -6,6 +6,7 @@ import Home from './pages/Home'
 import Collection from './pages/Collection'
 import About from './pages/About'
 import Contact from './pages/Contact'
+import Cart from './pages/Cart'
 
 function App() {
   
@@ -18,6 +19,7 @@ function App() {
         <Route path='/collection' element={<Collection/>}/>
         <Route path='/about' element={<About/>}/>
         <Route path='/contact' element={<Contact/>}/>
+        <Route path='/cart' element={<Cart/>}/>
       </Routes>
     </>
   )

@@ -11,6 +11,15 @@ export default {
         oftGreen: '#E7EFC7',
         deepForest: '#1C352D',
       },
+      animation: {
+        marquee: 'marquee 12s linear infinite',
+      },
+      keyframes: {
+        marquee: {
+          '0%': { transform: 'translateX(100%)' },
+          '100%': { transform: 'translateX(-100%)' },
+        },
+      },
     },
   },
   plugins: [],
